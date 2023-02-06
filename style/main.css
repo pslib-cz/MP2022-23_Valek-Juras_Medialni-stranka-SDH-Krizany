@@ -38,6 +38,7 @@ header > div {
     background-color: var(--dark_grey);
     height: 140px;
     display: flex;
+    width: 1400px;
 }
 header > div > #nazev {
     width: 240px;
@@ -54,23 +55,25 @@ header > div > #nazev > img {
 header > div > #nazev > p {
     position: relative;
     color: white;
-    font-size: larger;
+    font-size: 30px;
+    font-weight: bold;
     width: 100px;
-    margin: 0px;
+    margin-left: -2.3em;
     left: 120px;
 }
 header > div > #odkazy > a {
     width: 45px;
     height: 45px;
+    margin-left: 65em;
 }
 header > div > #odkazy {
     position: relative;
     right: 0px;
-    width: 300px;
     height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: fit-content;
 }
 header > div > #odkazy > a > img {
     width: 100%;
@@ -100,4 +103,18 @@ header > div > #odkazy > a > img {
 }
 .navbar > .domu > img {
     height: 50%;
+}
+h2 {
+    font-size: 21px;
+}
+hr {
+    width: 85em;
+    background-color: var(--red);
+    height: 1px;
+    border: none;
+}
+div hr {
+    width: 82em;
+    background-color: var(--dark_grey);
+    margin-left: -1em;
 }

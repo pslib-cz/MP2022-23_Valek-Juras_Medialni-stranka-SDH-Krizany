@@ -1,0 +1,41 @@
+section {
+    margin-left: 3em;
+    margin-bottom: 5em;
+    margin-right: 3em;
+}
+.obsah p {
+    margin-bottom: 2em;
+}
+ul {
+    margin-bottom: 2em;
+}
+table td {
+    width: 19em;
+    padding-bottom: 1em;
+}
+.legend {
+    clip-path: polygon(50% 0, 100% 4%, 100% 100%, 0 100%, 0 4%);
+    background-color: var(--grey);
+    margin: 0px;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.legend ul {
+    list-style-type: none;
+}
+.legend li {
+    max-width: 20em;
+    margin: auto; 
+}
+.listandpics {
+    display: flex;
+    justify-content: space-between;
+}
+.listandpics > .imgs {
+    width: 50%;
+}
+.imgs > img {
+    width: 42%;
+    margin: 1em;
+}
