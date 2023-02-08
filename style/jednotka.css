@@ -1,4 +1,17 @@
-table td {
-    width: 20em;
+table {
+    width: 50em;
     padding-bottom: 1em;
+    margin: 0px;
+    margin-left: 3em;
+}
+p {
+    margin-bottom: 1.5em;
+    font-size: 17px;
+}
+.info table {
+    width: 50em;
+}
+.info table td {
+    width: 50%;
+    font-size: 19px;
 }
