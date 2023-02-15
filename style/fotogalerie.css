@@ -1,7 +1,10 @@
 #znrm-6399038aaa781423ac5ecb2b {
-    width: 95%;
     position: relative;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
     top: 220px;
     margin: auto;
-    margin-top: -20vh;
+    margin-top: -15em;
+    margin-bottom: 1em;
+    background-color: white;
 }
