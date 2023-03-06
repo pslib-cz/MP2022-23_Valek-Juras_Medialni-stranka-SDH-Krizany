@@ -35,7 +35,22 @@ table td {
 .listandpics > .imgs {
     width: 50%;
 }
-.imgs > img {
+.listandpics > .list {
+    width: 50%;
+}
+.imgs > a > img {
     width: 42%;
     margin: 1em;
+}
+.seznamy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.seznamy div {
+    width: 20em;
+}
+#one {
+    display: flex;
+    justify-content: space-around;
 }
