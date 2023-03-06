@@ -54,3 +54,25 @@ table td {
     display: flex;
     justify-content: space-around;
 }
+
+@media only screen and (max-width: 960px) {
+    .listandpics {
+        flex-direction: column;
+    }
+    .listandpics .list, .listandpics .imgs {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 521px) {
+    section {
+        margin: 8px;
+    }
+    .listandpics {
+        width: 98%;
+    }
+    .listandpics .imgs img {
+        width: 135px;
+        margin: 5px;
+    }
+}
