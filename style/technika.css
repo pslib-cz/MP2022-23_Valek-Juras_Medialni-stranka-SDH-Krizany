@@ -75,4 +75,16 @@ table td {
         width: 135px;
         margin: 5px;
     }
+    #one {
+        flex-direction: column;
+    }
+    #one div {
+        width: 90%;
+    }
+    .listandpics .imgs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }

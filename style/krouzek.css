@@ -26,3 +26,15 @@ div a:hover {
 li {
     margin-bottom: 0.5em;
 }
+
+@media only screen and (max-width: 1300px) {
+    .obsah {
+        flex-direction: column;
+    }
+    .obsah section {
+        width: 90%;
+    }
+    body div hr {
+        width: 100%;
+    }
+}
