@@ -60,10 +60,6 @@ html body > hr {
     background-size: cover;
     background-position: center;
 }
-
-.dlazdice a {
-    margin: 0.2em;
-}
 .dlazdice a {
     text-align: center;
     display: flex;
@@ -74,10 +70,11 @@ html body > hr {
     color: white;
     font-weight: bold;
     transition: 0.2s linear;
+    margin: 0.2em;
 }
 .dlazdice a:hover {
     background-image: url(../imgs/303030_solid_color_background_icolorpalette.png);
-    box-shadow: 5px #000000;
+    box-shadow: 0 0 8px 2px black;
 }
 .info {
     margin-top: 1.5em;
