@@ -41,6 +41,10 @@ table td {
 .imgs > a > img {
     width: 42%;
     margin: 1em;
+    transition: 0.2s linear
+}
+.imgs img:hover {
+    box-shadow: 0 0 8px 2px black;
 }
 .seznamy {
     display: flex;
