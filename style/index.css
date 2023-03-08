@@ -32,7 +32,7 @@ html body > hr {
 }
 .fotogalerie {
     grid-area: foto;
-    background-image: url(../imgs/MG_2161\ -\ kopie.jpg);
+    background-image: url(../imgs/MG_21612.jpg);
     background-size: cover;
     background-position: center;
 }
