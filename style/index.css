@@ -116,3 +116,7 @@ html body > hr {
     clip-path: polygon(50% 5%, 100% 0, 100% 100%, 0 100%, 0 0)
     }
 }
+header .navbar:hover {
+    height: 16px;
+    top: 140px;
+}
