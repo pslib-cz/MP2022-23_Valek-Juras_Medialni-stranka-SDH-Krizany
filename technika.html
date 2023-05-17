@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style/main.css">
         <link rel="stylesheet" href="./style/technika.css">
+        <link type="text/css" rel="stylesheet" href="./css/lightgallery.css" />
+        <link type="text/css" rel="stylesheet" href="./css/lightgallery-bundle.css" />
         <title>Technika | SDH Křižany</title>
         <link rel="icon" href="./imgs/LOGO.svg">
     </head>
@@ -96,7 +98,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="imgs">
+                    <div id="lightgallery" class="imgs">
                         <a href="./imgs/MG_2081.jpg"><img src="./imgs/MG_2081.jpg" alt="truck"></a>
                         <a href="./imgs/MG_2008.jpg"><img src="./imgs/MG_2008.jpg" alt="truck"></a>
                         <a href="./imgs/MG_2096.jpg"><img src="./imgs/MG_2096.jpg" alt="truck"></a>
@@ -141,7 +143,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="imgs">
+                    <div id="lightgallery" class="imgs">
                         <a href="./imgs/MG_1871.jpg"><img src="./imgs/MG_1871.jpg" alt="car"></a>
                         <a href="./imgs/MG_1905.jpg"><img src="./imgs/MG_1905.jpg" alt="car"></a>
                         <a href="./imgs/MG_1918.jpg"><img src="./imgs/MG_1918.jpg" alt="car"></a>
@@ -186,7 +188,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="imgs">
+                    <div id="lightgallery" class="imgs">
                         <a href="./imgs/MG_1953.jpg"><img src="./imgs/MG_1953.jpg" alt="car"></a>
                         <a href="./imgs/MG_1976.jpg"><img src="./imgs/MG_1976.jpg" alt="car"></a>
                         <a href="./imgs/MG_1988.jpg"><img src="./imgs/MG_1988.jpg" alt="car"></a>
@@ -271,5 +273,15 @@
                     </div>
                 </div >
         </section>
+        <script src="./lightgallery.umd.js"></script>
+        <script src="./plugins/thumbnail/lg-thumbnail.umd.js"></script>
+        <script src="./plugins/zoom/lg-zoom.umd.js"></script>
+        <script src="./plugins/fullscreen/lg-fullscreen.umd.js"></script>
+
+        <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery'), {
+                plugins: [lgZoom, lgThumbnail, lgFullscreen],
+            });
+        </script>
     </body>
 </html>
