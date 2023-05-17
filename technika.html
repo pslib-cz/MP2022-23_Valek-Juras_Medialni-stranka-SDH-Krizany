@@ -98,7 +98,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div id="lightgallery" class="imgs">
+                    <div id="carone" class="imgs">
                         <a href="./imgs/MG_2081.jpg"><img src="./imgs/MG_2081.jpg" alt="truck"></a>
                         <a href="./imgs/MG_2008.jpg"><img src="./imgs/MG_2008.jpg" alt="truck"></a>
                         <a href="./imgs/MG_2096.jpg"><img src="./imgs/MG_2096.jpg" alt="truck"></a>
@@ -143,7 +143,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div id="lightgallery" class="imgs">
+                    <div id="cartwo" class="imgs">
                         <a href="./imgs/MG_1871.jpg"><img src="./imgs/MG_1871.jpg" alt="car"></a>
                         <a href="./imgs/MG_1905.jpg"><img src="./imgs/MG_1905.jpg" alt="car"></a>
                         <a href="./imgs/MG_1918.jpg"><img src="./imgs/MG_1918.jpg" alt="car"></a>
@@ -188,7 +188,7 @@
                             </tr>
                         </table>
                     </div>
-                    <div id="lightgallery" class="imgs">
+                    <div id="carthree" class="imgs">
                         <a href="./imgs/MG_1953.jpg"><img src="./imgs/MG_1953.jpg" alt="car"></a>
                         <a href="./imgs/MG_1976.jpg"><img src="./imgs/MG_1976.jpg" alt="car"></a>
                         <a href="./imgs/MG_1988.jpg"><img src="./imgs/MG_1988.jpg" alt="car"></a>
@@ -279,7 +279,17 @@
         <script src="./plugins/fullscreen/lg-fullscreen.umd.js"></script>
 
         <script type="text/javascript">
-            lightGallery(document.getElementById('lightgallery'), {
+            lightGallery(document.getElementById('carone'), {
+                plugins: [lgZoom, lgThumbnail, lgFullscreen],
+            });
+        </script>
+        <script type="text/javascript">
+            lightGallery(document.getElementById('cartwo'), {
+                plugins: [lgZoom, lgThumbnail, lgFullscreen],
+            });
+        </script>
+        <script type="text/javascript">
+            lightGallery(document.getElementById('carthree'), {
                 plugins: [lgZoom, lgThumbnail, lgFullscreen],
             });
         </script>
